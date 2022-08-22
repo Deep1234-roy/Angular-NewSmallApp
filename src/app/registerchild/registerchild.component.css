@@ -1,0 +1,39 @@
+.footer{
+    background-color: blue;
+    color: white;
+    height: 60px;
+    margin-top: 250px;
+  }
+  p{
+    font-size: medium;
+    text-align: center;
+  }
+  table{
+    width:50%;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+  
+    
+  }
+  h2{
+    margin-left: 50px;
+  }
+
+  .table {
+    width:60%;
+    border:1px solid red;
+    
+  }
+  
+  .table-header {
+    display:flex;
+    width:100%;
+    background:#000;
+    padding-top: 15px;
+  }
+
+  th,td{
+    color: white;
+    padding: 10px;
+  }

@@ -1,0 +1,45 @@
+<br>
+<br>
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[0]" alt="Random first slide" style="width: 90%; height: 400px;margin-left: 60px">
+      </div>
+      <div class="carousel-caption">
+        <h2>Welcome to DEEP PVT LTD</h2>
+        <p>Yow will get an amazing experience over here!!</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[1]" alt="Random second slide" style="width: 90%; height: 400px;margin-left: 60px">
+      </div>
+      <div class="carousel-caption">
+        <h2>Ranked 7th in India</h2>
+        <p>We secured 7th Rank in Accounts departments across India.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[2]"  alt="Random third slide" style="width: 90%; height: 400px;margin-left: 60px" >
+      </div>
+      <div class="carousel-caption">
+        <h2>Glipmses of our Over night Success</h2>
+        <p>You will surely inspired by our Success Story.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[3]" alt="Random fourth slide" style="width: 90%; height: 400px;margin-left: 60px">
+      </div>
+      <div class="carousel-caption">
+        <h2>Please Registered with us.....</h2>
+        <p>You feel like home culture and the enviroment is too friendly.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <br>
+  <br>
+  <div class="footer">
+    <p>Thanks for Choosing our Products....</p>
+  </div>
